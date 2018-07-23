@@ -1,0 +1,26 @@
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: d4f50b2ad9b26698be38158914056f2814ffa6628787fb20f9b7c195149295ef
+
+name:           biocad-test
+version:        0.0.0
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+executable biocad-test
+  main-is: Main.hs
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , data-default
+    , hasbolt
+    , text
+    , transformers
+  other-modules:
+      Paths_biocad_test
+  default-language: Haskell2010

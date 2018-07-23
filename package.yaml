@@ -1,0 +1,11 @@
+name: biocad-test
+dependencies:
+- base >= 4.7 && < 5
+- text
+- containers
+- transformers
+- data-default
+- hasbolt
+executable:
+  source-dirs: src
+  main: Main.hs
